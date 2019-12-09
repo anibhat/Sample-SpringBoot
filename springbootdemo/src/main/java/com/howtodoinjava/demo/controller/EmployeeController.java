@@ -16,7 +16,7 @@ public class EmployeeController {
     public List<Employee> getEmployees() 
     {
 		List<Employee> employeesList = new ArrayList<Employee>();
-		employeesList.add(new Employee(1,"lokesh","gupta","howtodoinjava@gmail.com"));
+		employeesList.add(new Employee(1,"Anirudh","Bhat","anirudh.p@mphasis.com"));
 		return employeesList;
     }
 	
@@ -24,7 +24,7 @@ public class EmployeeController {
     public List<Employee> addEmployees() 
     {
 		List<Employee> employeesList = new ArrayList<Employee>();
-		employeesList.add(new Employee(1,"lokesh","gupta","howtodoinjava@gmail.com"));
+		employeesList.add(new Employee(1,"Anirudh","Bhat","anirudh.p@mphasis.com"));
 		return employeesList;
     }
 
